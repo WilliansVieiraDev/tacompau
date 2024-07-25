@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacompau - Soluções Tecnológicas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #1E90FF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #FFA500;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .team {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .team div {
+            text-align: center;
+            margin: 20px;
+        }
+        .team img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        footer {
+            background-color: #1E90FF;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h2 {
+            color: #1E90FF;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        #contact p {
+            margin: 10px 0;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            .team {
+                flex-direction: column;
+            }
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./logotipo.png" alt="Logotipo Tacompau" style="width: 300px;">
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#team">Equipe</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="about" class="container">
+        <h2>Sobre Nós</h2>
+        <p>A Tacompau é uma empresa especializada em corrigir soluções tecnológicas para empresas que não possuem time de TI, mas precisam de ajustes em sistemas. Nosso time é composto por especialistas em sistemas legado, capacitados em diversas linguagens de programação.</p>
+    </section>
+    <section id="services" class="container">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Correção de bugs em sistemas legados</li>
+            <li>Atualização de software</li>
+            <li>Integração de sistemas</li>
+            <li>Consultoria tecnológica</li>
+            <li>Suporte técnico contínuo</li>
+        </ul>
+    </section>
+    <section id="team" class="container team">
+        <h2 style="width: 100%;">Equipe</h2>
+        <p style="width: 100%;">Conheça os especialistas por trás da Tacompau:</p>
+        <div>
+            <img src="./João.jpg" alt="João Silva">
+            <p><b>João Silva</b><br>Especialista em Sistemas Legado</p>
+        </div>
+        <div>
+            <img src="./Maria.jpg" alt="Maria Oliveira">
+            <p><b>Maria Oliveira</b><br>Desenvolvedora Full-Stack</p>
+        </div>
+        <div>
+            <img src="./Carlos.webp" alt="Carlos Souza">
+            <p><b>Carlos Souza</b><br>Consultor Tecnológico</p>
+        </div>
+    </section>
+    <section id="contact" class="container" style="margin-bottom: 100px;">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para saber mais sobre nossos serviços:</p>
+        <p>Email: <a href="mailto:contato@tacompau.com.br">contato@tacompau.com.br</a></p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Endereço: Rua Exemplo, 123 - São Paulo, SP</p>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tacompau. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
